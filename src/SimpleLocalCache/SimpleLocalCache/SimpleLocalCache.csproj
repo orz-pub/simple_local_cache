@@ -47,7 +47,7 @@
   <ItemGroup>
     <Compile Include="LocalCache\KeyValueStore.cs" />
     <Compile Include="LocalCache\LocalCache.cs" />
-    <Compile Include="LocalCache\LocalCacheValue.cs" />
+    <Compile Include="LocalCache\LocalCacheable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
