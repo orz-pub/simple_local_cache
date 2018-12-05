@@ -37,7 +37,7 @@ namespace SimpleLocalCache
             await Task.Delay(3000);
             String result = await task;
 
-            // 테스트 코드이므로 json을 파싱하지 않고 문자열 처리.
+            // 테스트 코드이므로 문자열 처리.
             var regex = new Regex(@"buy_price\D+(\d+)");
             Match match = regex.Match(result);
 
